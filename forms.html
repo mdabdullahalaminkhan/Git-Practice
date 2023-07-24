@@ -6,17 +6,50 @@
     <title>Forms</title>
 </head>
 <body>
+
     <H2>Form-1</H2>
     <form action="#">
+
         <input type="text" placeholder="Enter Your Name" name="Name">
         <input type="button" value="Submit">
+
     </form>
 
     <H2>Form-2</H2>
     <form action="#">
+
         <input type="text" placeholder="Enter Your Name" name="Name">
         <br><br>
         <input type="button" value="Submit">
+
     </form>
+
+    
+    <form action="#">
+
+        <h2>Form-3</h2>
+        <label for="country-list"> <h2>Select a country</h2> </label>
+        <input id="country-list" name="country-name-list" list="list-of-countries" placeholder="Select your country">
+        
+        <datalist id="list-of-countries">
+            
+            <option value="Bangladesh"> Bangladesh</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Nepal">Nepal</option>
+
+        </datalist>
+
+    </form>
+
+    <form action="">
+        <label for="Id Name">Input Field Name / Head</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+        </select>
+
+    </form>
+
 </body>
 </html>
